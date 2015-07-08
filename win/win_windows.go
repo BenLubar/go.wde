@@ -18,11 +18,12 @@ package win
 
 import (
 	"errors"
-	"github.com/AllenDang/w32"
-	"github.com/skelterjohn/go.wde"
 	"image"
 	"runtime"
 	"unsafe"
+
+	"github.com/AllenDang/w32"
+	"github.com/skelterjohn/go.wde"
 )
 
 func init() {
